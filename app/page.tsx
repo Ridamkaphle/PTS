@@ -35,17 +35,26 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen bg-white overflow-x-hidden" id="home">
       <Header />
       <main>
         <HeroSection />
         <StatsSection />
+        {/* Services Section - Using DemoSection as Services */}
+        <section id="services">
+          <DemoSection />
+        </section>
+        {/* Features Section - Using ComparisonSection as main Features */}
+        <section id="features">
+          <ComparisonSection />
+        </section>
         <FeaturesSection />
-        <DemoSection />
         <TestimonialsSection />
         <PartnersSection />
-        <ComparisonSection />
-        <ContactSection />
+        {/* Contacts Section */}
+        <section id="contact">
+          <ContactSection />
+        </section>
         <BlogSection />
       </main>
       <Footer />

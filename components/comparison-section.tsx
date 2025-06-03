@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Check, ArrowRight, Zap, Target, TrendingUp, Shield } from "lucide-react"
+import { Check, ArrowRight, Zap, Target, TrendingUp, Shield, Bot } from "lucide-react"
 import { useState, useEffect, useRef } from "react"
 
 export function ComparisonSection() {
@@ -17,17 +17,34 @@ export function ComparisonSection() {
       subtitle: "Complete Product Management Suite",
       description:
         "Everything you need in one intelligent platform - from ideation to execution. No more switching between multiple tools.",
-      image: "/placeholder.svg?height=500&width=700&text=AI+Dashboard+Interface",
+      image: "/images/team-collaboration-workspace.jpg",
       features: ["PRD Generation", "User Stories", "Roadmaps", "OKRs", "Market Intelligence"],
       stats: { value: "15+", label: "AI Features" },
       bgGradient: "from-[#005FAF]/10 to-[#005FAF]/5",
+    },
+    {
+      icon: Bot,
+      title: "AI Automation Agent",
+      subtitle: "Intelligent Automation Platform",
+      description:
+        "Deploy intelligent automation agents that handle complex workflows, data processing, and decision-making tasks. Our AI agents learn from your processes and continuously optimize performance.",
+      image: "/placeholder.svg?height=500&width=700&text=AI+Automation+Agent+Dashboard",
+      features: [
+        "Workflow Automation",
+        "Smart Decision Making",
+        "Process Optimization",
+        "Real-time Learning",
+        "Custom Agent Training",
+      ],
+      stats: { value: "24/7", label: "Automation" },
+      bgGradient: "from-[#005FAF]/5 to-[#005FAF]/10",
     },
     {
       icon: Target,
       title: "Strategic Planning",
       subtitle: "Data-Driven Decision Making",
       description: "AI-powered insights that help you make strategic product decisions with confidence and precision.",
-      image: "/placeholder.svg?height=500&width=700&text=Strategic+Planning+Dashboard",
+      image: "/images/strategic-planning-teamwork.jpg",
       features: [
         "RICE Prioritization",
         "Market Analysis",
@@ -36,7 +53,7 @@ export function ComparisonSection() {
         "Risk Assessment",
       ],
       stats: { value: "95%", label: "Accuracy Rate" },
-      bgGradient: "from-[#005FAF]/5 to-[#005FAF]/10",
+      bgGradient: "from-[#005FAF]/10 to-[#005FAF]/5",
     },
     {
       icon: TrendingUp,
@@ -47,7 +64,7 @@ export function ComparisonSection() {
       image: "/placeholder.svg?height=500&width=700&text=Productivity+Analytics+Chart",
       features: ["40+ Hours Saved", "Instant Generation", "Smart Templates", "Auto-Analysis", "Quick Iterations"],
       stats: { value: "40+", label: "Hours Saved Weekly" },
-      bgGradient: "from-[#005FAF]/10 to-[#005FAF]/5",
+      bgGradient: "from-[#005FAF]/5 to-[#005FAF]/10",
     },
     {
       icon: Shield,
@@ -58,7 +75,7 @@ export function ComparisonSection() {
       image: "/placeholder.svg?height=500&width=700&text=Security+Quality+Metrics",
       features: ["95% Accuracy", "Data Security", "Quality Assurance", "Continuous Learning", "Reliable Output"],
       stats: { value: "500+", label: "Teams Trust Us" },
-      bgGradient: "from-[#005FAF]/5 to-[#005FAF]/10",
+      bgGradient: "from-[#005FAF]/10 to-[#005FAF]/5",
     },
   ]
 
