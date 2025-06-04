@@ -189,10 +189,7 @@ export function PartnersSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Integrates with Your
-            <span className="bg-gradient-to-r from-college-blue to-college-blue-light bg-clip-text text-transparent ml-2">
-              Favorite Tools
-            </span>
+            Integrates with Your <span className="text-college-blue">Favorite Tools</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
             Seamlessly connect with the tools you already use. One-click setup, real-time sync, and powerful automation.
