@@ -28,7 +28,7 @@ export function ComparisonSection() {
       subtitle: "Intelligent Automation Platform",
       description:
         "Deploy intelligent automation agents that handle complex workflows, data processing, and decision-making tasks. Our AI agents learn from your processes and continuously optimize performance.",
-      image: "/placeholder.svg?height=500&width=700&text=AI+Automation+Agent+Dashboard",
+      image: "/images/ai-automation-collaboration.jpg",
       features: [
         "Workflow Automation",
         "Smart Decision Making",
@@ -61,7 +61,7 @@ export function ComparisonSection() {
       subtitle: "Automate Repetitive Tasks",
       description:
         "Focus on strategy while AI handles the heavy lifting of documentation, analysis, and routine tasks.",
-      image: "/placeholder.svg?height=500&width=700&text=Productivity+Analytics+Chart",
+      image: "/images/productivity-analytics.jpg",
       features: ["40+ Hours Saved", "Instant Generation", "Smart Templates", "Auto-Analysis", "Quick Iterations"],
       stats: { value: "40+", label: "Hours Saved Weekly" },
       bgGradient: "from-[#005FAF]/5 to-[#005FAF]/10",
@@ -72,7 +72,7 @@ export function ComparisonSection() {
       subtitle: "Reliable & Secure",
       description:
         "Built for enterprise teams with security, accuracy, and reliability at its core. Trust your most important decisions to our AI.",
-      image: "/placeholder.svg?height=500&width=700&text=Security+Quality+Metrics",
+      image: "/images/enterprise-quality-meeting.jpg",
       features: ["95% Accuracy", "Data Security", "Quality Assurance", "Continuous Learning", "Reliable Output"],
       stats: { value: "500+", label: "Teams Trust Us" },
       bgGradient: "from-[#005FAF]/10 to-[#005FAF]/5",
