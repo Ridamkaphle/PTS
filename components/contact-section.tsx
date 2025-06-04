@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
-import { Calendar, Mail, Phone } from "lucide-react"
+import { Calendar, Mail, Phone, MapPin } from "lucide-react"
 
 export function ContactSection() {
   return (
@@ -70,11 +70,15 @@ export function ContactSection() {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="w-5 h-5 text-college-blue mr-3" />
-                    <span className="text-gray-700">hello@projecttechsolutions.com</span>
+                    <span className="text-gray-700">Contact@progresstechsolutions.com</span>
                   </div>
                   <div className="flex items-center">
                     <Phone className="w-5 h-5 text-college-blue mr-3" />
-                    <span className="text-gray-700">+1 (555) 123-4567</span>
+                    <span className="text-gray-700">(800) 889-8394</span>
+                  </div>
+                  <div className="flex items-center">
+                    <MapPin className="w-5 h-5 text-college-blue mr-3" />
+                    <span className="text-gray-700">3913 Tunstall Dr, Frisco, TX</span>
                   </div>
                 </div>
               </CardContent>
